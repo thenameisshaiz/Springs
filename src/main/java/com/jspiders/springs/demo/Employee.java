@@ -6,6 +6,7 @@ public class Employee {
     private double sal;
     private ContactInfo contact;
     private Address address = new Address();
+    private int aadhaar;
 
 //    Injecting Dependency in Constructor
     public Employee(ContactInfo contact, Address address){

@@ -28,4 +28,8 @@
           name="address"
           class="com.jspiders.springs.demo.Address"/>
 
+    <bean id="contact"
+          name="contact"
+          class="com.jspiders.springs.demo.contact"/>
+
 </beans>

@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello and welcome to Springs!");
-        System.out.println("Program starts");
+//        System.out.println("Program starts");
 
 //        Loading the configuration which is present in "beans.xml" file.
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
