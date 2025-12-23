@@ -9,4 +9,23 @@
           name="Sample"
           class="com.jspiders.springs.demo.Sample"/>
 
+    <bean id="contact"
+          name="contact"
+          class="com.jspiders.springs.demo.ContactInfo"/>
+
+<!--    <bean id="employee"-->
+<!--          name="employee"-->
+<!--          class="com.jspiders.springs.demo.Employee"/>-->
+
+    <bean id="employee"
+           name="employee"
+            class="com.jspiders.springs.demo.Employee">
+        <constructor-arg ref="contact"/>
+        <constructor-arg ref="address"/>
+    </bean>
+
+    <bean id="address"
+          name="address"
+          class="com.jspiders.springs.demo.Address"/>
+
 </beans>
