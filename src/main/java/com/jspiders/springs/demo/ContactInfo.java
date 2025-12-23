@@ -3,7 +3,7 @@ package com.jspiders.springs.demo;
 public class ContactInfo {
     private String email;
     private String mobile;
-    private String landLine;
+
 
     public String getEmail() {
         return email;

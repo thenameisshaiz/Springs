@@ -4,7 +4,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class DependencyInjectionDemo {
     public static void main(String[] args) {
-//        System.out.println("Program starts");
+        System.out.println("Program starts");
         ContactInfo contact = new ContactInfo();
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 
