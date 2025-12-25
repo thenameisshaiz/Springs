@@ -27,4 +27,8 @@
         <property name="address" ref="address"/>
     </bean>
 
+    <bean id="lifecycle"
+          name="lifecycle"
+          class="com.jspiders.springs.demo.LifeCycleDemo"/>
+
 </beans>

@@ -2,7 +2,7 @@ package com.jspiders.springs.demo;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class Main {
+public class Main01 {
     public static void main(String[] args) {
         System.out.println("Hello and welcome to Springs!");
         System.out.println("Program starts");
