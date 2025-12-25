@@ -12,20 +12,19 @@
     <bean id="contact"
           name="contact"
           class="com.jspiders.springs.demo.ContactInfo"/>
-
-<!--    <bean id="employee"-->
-<!--          name="employee"-->
-<!--          class="com.jspiders.springs.demo.Employee"/>-->
+    <bean id="address"
+          name="address"
+          class="com.jspiders.springs.demo.Address"/>
 
     <bean id="employee"
            name="employee"
             class="com.jspiders.springs.demo.Employee">
         <constructor-arg ref="contact"/>
-        <constructor-arg ref="address"/>
-    </bean>
+        <property name="id" value="1001"/>
+        <property name="name" value="John Doyle"/>
+        <property name="sal" value="10000.0"/>
 
-    <bean id="address"
-          name="address"
-          class="com.jspiders.springs.demo.Address"/>
+        <property name="address" ref="address"/>
+    </bean>
 
 </beans>

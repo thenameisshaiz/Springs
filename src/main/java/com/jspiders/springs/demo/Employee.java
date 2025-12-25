@@ -9,9 +9,8 @@ public class Employee {
     private int aadhaar;
 
 //    Injecting Dependency in Constructor
-    public Employee(ContactInfo contact, Address address){
+    public Employee(ContactInfo contact){
         this.contact = contact;
-        this.address = address;
     }
 
     public int getId() {
