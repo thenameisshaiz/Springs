@@ -1,5 +1,9 @@
-package com.jspiders.springs.demo;
+package com.jspiders.springs.demo.model;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class Address {
 
     private String city;

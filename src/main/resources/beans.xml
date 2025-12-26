@@ -7,18 +7,18 @@
     <!-- bean definitions here -->
     <bean id="Sample"
           name="Sample"
-          class="com.jspiders.springs.demo.Sample"/>
+          class="com.jspiders.springs.demo.runner.Sample"/>
 
     <bean id="contact"
           name="contact"
-          class="com.jspiders.springs.demo.ContactInfo"/>
+          class="com.jspiders.springs.demo.model.ContactInfo"/>
     <bean id="address"
           name="address"
-          class="com.jspiders.springs.demo.Address"/>
+          class="com.jspiders.springs.demo.model.Address"/>
 
     <bean id="employee"
            name="employee"
-            class="com.jspiders.springs.demo.Employee">
+            class="com.jspiders.springs.demo.model.Employee">
         <constructor-arg ref="contact"/>
         <property name="id" value="1001"/>
         <property name="name" value="John Doyle"/>
@@ -29,6 +29,6 @@
 
     <bean id="lifecycle"
           name="lifecycle"
-          class="com.jspiders.springs.demo.LifeCycleDemo"/>
+          class="com.jspiders.springs.demo.runner.LifeCycleDemo"/>
 
 </beans>

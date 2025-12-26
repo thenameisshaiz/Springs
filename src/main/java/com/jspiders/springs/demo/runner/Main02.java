@@ -1,4 +1,4 @@
-package com.jspiders.springs.demo;
+package com.jspiders.springs.demo.runner;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

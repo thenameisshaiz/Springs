@@ -1,5 +1,9 @@
-package com.jspiders.springs.demo;
+package com.jspiders.springs.demo.model;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class Employee {
     private int id;
     private String name;
@@ -9,6 +13,7 @@ public class Employee {
     private int aadhaar;
 
 //    Injecting Dependency in Constructor
+    @Autowired
     public Employee(ContactInfo contact){
         this.contact = contact;
     }
@@ -45,10 +50,12 @@ public class Employee {
         this.contact = contact;
     }
 
+
     public Address getAddress() {
         return address;
     }
 
+    @Autowired
     public void setAddress(Address address) {
         this.address = address;
     }

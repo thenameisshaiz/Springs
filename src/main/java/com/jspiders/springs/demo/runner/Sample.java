@@ -1,5 +1,8 @@
-package com.jspiders.springs.demo;
+package com.jspiders.springs.demo.runner;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Sample {
     private int x1 = 0;
 
